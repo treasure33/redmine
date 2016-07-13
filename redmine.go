@@ -466,7 +466,7 @@ func (c *IssuesListCall) Sort(sort string) *IssuesListCall {
 }
 
 func (c *IssuesListCall) Filter(key, value string) *IssuesListCall {
-	c.options[key] = value
+	c.filters[key] = value
 	return c
 }
 
