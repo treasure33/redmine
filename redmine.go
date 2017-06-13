@@ -335,6 +335,7 @@ type IssueChild struct {
 type IssueJournalDetail struct {
 	Name     string `json:"name"`
 	Property string `json:"property"`
+	OldValue string `json:"old_value"`
 	NewValue string `json:"new_value"`
 }
 
